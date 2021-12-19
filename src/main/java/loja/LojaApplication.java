@@ -18,7 +18,7 @@ public class LojaApplication {
 //		System.out.println(calculadoraDeImpostos.calcular(orcamento, new ISS()));
 
 		// TESTE DESCONTOS
-		Orcamento orcamento = new Orcamento(new BigDecimal(1000), 6);
+		Orcamento orcamento = new Orcamento(new BigDecimal(200), 4);
 		CalculadoraDeDescontos calculadoraDeDescontos = new CalculadoraDeDescontos();
 
 		System.out.println(calculadoraDeDescontos.calcular(orcamento));
